@@ -1,5 +1,6 @@
 import { useState } from 'react'
-import Counter from './comps/Counter'
+import Counter from './comps/props/Counter'
+import Form from './events/Form'
 
 
 
@@ -8,7 +9,7 @@ function App() {
 
   return (
     <>
-      <Counter/>
+      <Form/>
     </>
   )
 }
